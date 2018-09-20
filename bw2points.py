@@ -3,7 +3,7 @@ from pylab import *
 
 
 img = array(Image.open('david.png'))
-print(img[0][0])
+print("Size is " + str(len(img[0]))+ "x"+ str(len(img)))
 outfile = open("output.csv", "a")
 
 
